@@ -1,7 +1,4 @@
-com/demo/controller/UserController.class
-com/demo/exception/ErrorResponse.class
-com/demo/exception/ResourceNotFoundException.class
-com/demo/model/User.class
-com/demo/repository/UserRepository.class
-com/demo/exception/GlobalExceptionHandler.class
-com/demo/Application.class
+com/silasman/model/User.class
+com/silasman/SpringMongodbApplication.class
+com/silasman/repositoty/UserRepository.class
+com/silasman/controller/UserController.class
