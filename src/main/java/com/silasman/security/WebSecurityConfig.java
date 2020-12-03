@@ -1,7 +1,5 @@
-package com.silasman.security.services;
+package com.silasman.security;
 
-import com.silasman.security.jwt.AuthEntryPointJwt;
-import com.silasman.security.jwt.AuthTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +13,10 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import com.silasman.security.jwt.AuthEntryPointJwt;
+import com.silasman.security.jwt.AuthTokenFilter;
+import com.silasman.security.services.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity
